@@ -1,0 +1,156 @@
+body {
+    background-color:#cea135;
+    height: 1000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#Header {
+    background-color: rgb(44, 127, 148);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.middle h1 /*Title on the header*/ {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
+.middle h4 {
+    margin-left: 50px;
+    font-size: 20px;
+    width: 500px;
+}
+.middle h3 {
+    margin-left: 50px;
+    font-size: 20px;
+    width: 1000px;
+}
+.middle {
+        margin: auto;
+        width: 50%;
+        padding: 20px;
+}
+.logo {
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.about{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: rgb(0, 17, 255);
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.link {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.link a {
+    color: #0004ff;
+    text-decoration: none;
+}
+.parallax {
+    /* The image used */
+    background-image: url("background.png");
+  
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#mid-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#mid-page h4 {
+    margin-bottom: -10px;
+}
+.featured {
+    padding-top: 20px;
+    color: rgb(44, 127, 148);
+    
+}
+.newsstuff {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 400px;
+    left: 100px;
+}
+.news {
+    display: flex;
+    flex-direction: row;
+    color: rgb(44, 127, 148);
+    margin-bottom: 200px;
+}
+.news h1 {
+    margin-top: -10px;
+    margin-left: 30px;
+}
+.news img {
+    size: 100%;
+}
+.news-content {
+    color: #003e42;
+    position: relative;
+    top: 100px;   
+    right: 310px; 
+    margin-top: -20px;
+}
+.news-content a {
+    color: inherit;
+    text-decoration: inherit;
+    font-style: italic;
+}
+.news-content1 {
+    color: #003e42;
+    position: relative;
+    top: 100px;   
+    right: 200px; 
+    margin-top: -20px;
+}
+.news-content1 a {
+    color: inherit;
+    text-decoration: inherit;
+    font-style: italic;
+}
+.newscontents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #003e42;
+}
+.newscontents a{
+    color: inherit;
+    text-decoration: inherit;
+    font-style: italic;
+}
+.memorization {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.newscontents h1{
+    color: red;
+}
